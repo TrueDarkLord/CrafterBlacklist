@@ -1,0 +1,6 @@
+name: CrafterBlacklist
+version: '0.0.0'
+main: me.truedarklord.crafterBlacklist.CrafterBlacklist
+api-version: '1.21'
+authors: [ TrueDarkLord ]
+description: Just a simple blacklist for what the crafter can make.
