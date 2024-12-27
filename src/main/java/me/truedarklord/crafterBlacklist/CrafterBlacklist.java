@@ -1,5 +1,6 @@
 package me.truedarklord.crafterBlacklist;
 
+import me.truedarklord.crafterBlacklist.listeners.CrafterCraft;
 import me.truedarklord.crafterBlacklist.metrics.Metrics;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -11,6 +12,8 @@ public final class CrafterBlacklist extends JavaPlugin {
         saveDefaultConfig();
 
         advertise();
+
+        new CrafterCraft(this);
 
     }
 
