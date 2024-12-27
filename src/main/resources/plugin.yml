@@ -4,3 +4,8 @@ main: me.truedarklord.crafterBlacklist.CrafterBlacklist
 api-version: '1.21'
 authors: [ TrueDarkLord ]
 description: Just a simple blacklist for what the crafter can make.
+commands:
+  reload:
+    description: Reloads the plugin.
+    permission: crafterblacklist.reload
+    usage: /<command>
