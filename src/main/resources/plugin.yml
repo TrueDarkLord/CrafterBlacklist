@@ -1,5 +1,5 @@
 name: CrafterBlacklist
-version: '0.0.0'
+version: '${version}'
 main: me.truedarklord.crafterBlacklist.CrafterBlacklist
 api-version: '1.21'
 authors: [ TrueDarkLord ]
@@ -9,3 +9,4 @@ commands:
     description: Reloads the plugin.
     permission: crafterblacklist.reload
     usage: /<command>
+folia-supported: true
