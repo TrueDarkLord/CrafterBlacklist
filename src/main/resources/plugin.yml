@@ -9,3 +9,4 @@ commands:
     description: Reloads the plugin.
     permission: crafterblacklist.reload
     usage: /<command>
+folia-supported: true
